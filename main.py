@@ -171,7 +171,7 @@ def evaluate_model(model, dataloader):
 # Main Pipeline
 if __name__ == "__main__":
     # Paths
-    font_path = "/Users/chameleon/TextRecognitionDataGenerator/fonts/arialbd.ttf"
+    font_path = f"{Path.home()}/hellotorch/fonts/arialbd.ttf"
     character_output_dir =  f"{Path.home()}/hellotorch/dataset/characters"
     preprocessed_output_dir =  f"{Path.home()}/hellotorch/dataset/preprocessed"
 
